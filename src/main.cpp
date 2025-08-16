@@ -73,5 +73,10 @@ void loop() {
   int speed = max(0L, 2000 - left_enc_count_1);
   left.setSpeed(speed);
   right.setSpeed(speed);
+  drive.forward(1000);
+  drive.stop();
+  delay(1000);
+  drive.backward(1000);
+  drive.stop();
 
 }
