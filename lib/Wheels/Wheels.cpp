@@ -31,5 +31,5 @@ void Wheel::stop() {
 
 void Wheel::brake() {
     digitalWrite(_controlPinA, LOW);
-    digitalWrite(_controlPinA, LOW);
+    digitalWrite(_controlPinB, LOW);
 }
