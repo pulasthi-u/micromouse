@@ -6,8 +6,8 @@
 #define PWM_A   17
 #define PWM_B   16
 #define STBY    4
-#define AIN1    33
-#define AIN2    25
+#define AIN1    25
+#define AIN2    33
 #define BIN1    27
 #define BIN2    14
 
@@ -16,8 +16,8 @@
 #define ENC2_A  18  // Right CHA (pulse)
 #define ENC2_B  19  // Right CHB (ctrl)
 
-#define IR_FRONT 39 // ADC1_CH3
-#define IR_LEFT  34 // ADC1_CH6
+#define IR_FRONT 34 // ADC1_CH3
+#define IR_LEFT  39 // ADC1_CH6
 #define IR_RIGHT 35 // ADC1_CH7
 
 // ---- PWM (LEDC)
